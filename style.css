@@ -1,0 +1,241 @@
+.title-head{
+    margin-left: 150px;
+}
+
+.navbar-start{
+    margin-left: 5%;
+}
+
+.nav-1{
+    margin-right: 20px;
+    margin-top: 106px;
+}
+
+.nav-2{
+    
+    margin-right: 20px;
+    margin-top: 106px;
+}
+
+.nav-3{
+    margin-top: 106px;
+}
+
+
+
+.card-back{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 55%;
+    margin-left: 21%;
+    padding-bottom: 2%;
+}
+
+.card-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 32px 26px;
+    margin-top: 8%;
+}
+
+.card-text-1{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-text-2{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    margin-left: -14px;
+
+    
+}
+
+.btn-card{
+    width: 100%;
+    margin-top: 4%;
+    padding: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.card-background{
+    background-color: aliceblue;
+    padding-bottom: 56px;
+    
+}
+
+.input-tt{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.tt-list-1{
+    margin-left: 20px;
+    margin-right: 43px;
+}
+
+.tt-back{
+    background-color: #D9EDF7;
+    width: 85%;
+    margin-left: 7%;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.tt-back-1{
+    width: 85%;
+    margin-left: 7%;
+    font-weight: 400;
+    /* padding-bottom: 20px; */
+    margin-bottom :2% ;
+}
+
+.tt-list-2{
+    margin-right: 150px;
+    margin-left: 70px;
+}
+
+.tt-list-3{
+    margin-right: 20px;
+}
+
+.tt-list-a{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 28px;
+}
+
+.tt-list-b{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 68px;
+}
+
+.tt-list-c{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 27px;
+}
+
+.tt-list-d{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 180px;
+}
+
+.tt-list-e{
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 116px;
+}
+
+
+
+.tt-list-4{
+    margin-left: 115px;
+}
+
+.tt-list-5{
+    margin-left: 50px;
+
+}
+
+.head-title{
+    width: 29%;
+    margin-top: 5%;
+    margin-left: 150px;
+    font-size: 70px;
+}
+
+
+.hell{
+    margin-bottom:-126px;
+}
+
+
+.head-content{
+    font-size: 22px;
+    width: 38%;
+    margin-left: 155px;
+    margin-bottom: 15%;
+}
+
+.head-img{
+    position: absolute;
+    margin-left: 56%;
+    margin-top: -33%;
+    border-radius: 37px
+
+}
+
+.btn-head{
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 10%;
+    width: 18%;
+}
+.tt-list-p{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* .tt-list-q{
+    text-align:left;
+} */
+.tt-list-new{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-img{
+    height: 246px;
+    margin-left: 134px;
+    margin-top: -48px;
+}
+
+.menu-bar{
+    margin-top: -66px;
+    margin-left: 38%;
+}
+
+.hr-text{
+    margin-left: 47%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.card-text-3{
+    margin-top: -11%;
+    font-weight: 700;
+}
+
+.nav-im{
+    height: 61px;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.menu-ba{
+    margin-top: -78px;
+    margin-left: 40%;
+    margin-bottom: 23px;
+}
+
+.text-head{
+    margin-top: 79px;
+    text-align: center;
+}
+
+.her-img{
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 85%;
+    margin-left: 11%;
+}

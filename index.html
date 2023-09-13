@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real-time</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <img class="navbar-brand">
+        <div class="hell">
+            <img src="images/WhatsApp Image 2023-09-12 at 23.38.50.jpg" class="nav-img"></img>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu menu-bar">
+          <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link nav-1 is-size-5">
+                  Bus Info
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item " href="#live-status">
+                    Live Bus Status
+                  </a>
+                  <a class="navbar-item" href="#time-table">
+                    Time Table
+                  </a>
+                  
+                </div>
+              </div>
+            <a class="navbar-item nav-2 is-size-5 " href="Help.html">
+              Help
+            </a>
+      
+            <a class="navbar-item nav-3 is-size-5 has-text-left" href="AboutUs.html">
+              About Us
+            </a>
+      
+            
+          </div>
+        </div>
+      
+          
+        </div>
+      </nav>
+
+      <img class="container">
+        <h1 class="title head-title has-text-weight-bold">Why Do We Use It?</h1>
+        <h3 class="head-content has-text-justified">Have you ever faced safety issues while travelling by a bus? Did you find it difficult to locate nearby facilities? Always fearing if a natural disaster might strike or what if the bus is on the wrong route? We got you covered for all the queries, in a one-stop go !!!</h3>
+        <img src="images/WhatsApp Image 2023-09-12 at 21.46.21.jpg" class="head-img"></img>
+        <a href="#video-frame"><button class="button is-success btn-head has-text-white">Get Started</button></a>
+      </div>
+
+      <iframe width="1600" height="650" id="video-frame" src="images/WhatsApp Video 2023-09-12 at 14.08.53.mp4"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <div class="container card-background" id="live-status">
+        
+        <h2 class="subtitle is-2 has-text-centered mt-6 has-text-weight-bold "> Check Bus Status</h2>
+
+        <div class="card card-back">
+            <div class="card-content">
+              <div class="content is-size-4 ml-5">
+                Search By Bus
+              </div>
+
+              <div class="card-box">
+                <h1 class=" card-text-1">Bus Number/Name</h1>
+                <div class="control">
+                  <input class="input card-text-2" type="text" placeholder="Select Bus No.">
+                </div> 
+                <button class="button is-link btn-card has-text-white" id="search-btn" onclick="myFunction()" dblclick = "myHero()">Check Status</button>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="is-size-4 has-text-blue hr-text">Or</h3>
+          
+
+          <div class="card card-back">
+            <div class="card-content">
+              <h1 class=" card-text-1">From</h1>
+                <div class="control">
+                  <input class="input card-text-2" type="text" placeholder="starts from here">
+                </div>
+              </div>
+
+              <div class="card-box">
+                <h1 class=" card-text-3">To</h1>
+                <div class="control">
+                  <input class="input card-text-2" type="text" placeholder="ends here">
+                </div> 
+                <button class="button is-link btn-card has-text-white">Check Status</button>
+              </div>
+            </div>
+          </div>
+      </div>
+ 
+      <div>
+        <h2 class="subtitle is-2 has-text-centered mt-6 has-text-weight-bold" id="time-table">Time Table</h2>
+        <div class="control">
+            <input id="in" class="input input-tt" type="text" placeholder="Type a Bus number or name">
+          </div>
+
+          <h2 class="subtitle is-4 has-text-centered mt-6 has-text-weight-bold ">List of himachal buses and their time table</h2>
+          <!-- <div class="tt-basic">
+            <ul class="list-tt">
+                <li><a href="#">Bulma</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Components</a></li>
+              </ul>
+          </div> -->
+
+          <nav class="breadcrumb has-dot-separator tt-back" aria-label="breadcrumbs">
+            <ul>
+              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Bus Number</a></li>
+              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Bus Name</a></li>
+              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Fuel Type</a></li>
+              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Departure Time(Hrs)</a></li>
+              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Arrival time(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+          
+          <nav id="list1" class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li class="tt-list-p has-text-black" id="list1-num">12267</li>
+              <li class="tt-list-p" ><a  href="#" class="has-text-black ">HAMIRPUR-KASAUL</a></li>
+              <li class="tt-list-p" ><a href="#" class="has-text-black ">CNG</a></li>
+              <li class="tt-list-p" ><a href="#" class="has-text-black ">23:25(Hrs)</a></li>
+              <li class="tt-list-p" ><a href="#" class="has-text-black ">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li class="tt-list-p" ><a href="#" id="list2-num" class="has-text-black">12248</a></li>
+              <li class="tt-list-p" ><a href="#" class="has-text-black">SHIMLA-KASAUL</a></li>
+              <li class="tt-list-p" ><a href="#" class="has-text-black">PETROL</a></li>
+              <li class="tt-list-p" ><a href="#" class="has-text-black">23:25(Hrs)</a></li>
+              <li class="tt-list-p" ><a href="#" class="has-text-black">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li class="tt-list-p"><a href="#" id="list3-num" class="has-text-black">12245</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">SHIMLA-MANDI</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">PETROL</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">23:25(Hrs)</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li class="tt-list-p"><a href="#" id="list4-num" class="has-text-black">12288</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">SHIMLA-DHARAMSHALA</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">CNG</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">23:25(Hrs)</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+            <ul>
+              <li class="tt-list-p"><a href="#" id="list5-num" class="has-text-black">12145</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">MANALI-DALHOUSIE</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">PETROL</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">23:25(Hrs)</a></li>
+              <li class="tt-list-p"><a href="#" class="has-text-black">05:55(Hrs)</a></li>
+              
+            </ul>
+          </nav>
+      </div>
+
+      <script src="script.js"></script>
+  
+  </body>
+</html>
