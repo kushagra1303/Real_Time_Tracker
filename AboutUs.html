@@ -12,7 +12,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <img class="navbar-brand">
         <div class="hell">
-            <img src="images/WhatsApp Image 2023-09-13 at 11.47.42.jpg" class="nav-im"></img>
+            <img src="images/WhatsApp Image 2023-09-13 at 11.47.42.jpg" class="nav-i"></img>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -24,15 +24,15 @@
         <div id="navbarBasicExample" class="navbar-menu menu-ba">
           <div class="navbar-start">
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link nav-1 is-size-5">
+                <a class="navbar-link nav-1 is-size-5" href="index.html">
                   Bus Info
                 </a>
         
                 <div class="navbar-dropdown">
-                  <a class="navbar-item " href="#live-status">
+                  <a class="navbar-item " href="index.html">
                     Live Bus Status
                   </a>
-                  <a class="navbar-item" href="#time-table">
+                  <a class="navbar-item" href="index.html">
                     Time Table
                   </a>
                   
@@ -57,11 +57,12 @@
     <!-- <About Us and Image> -->
 
     <section>
+      <div class="about-back">
         <div class="container">
             <div class="columns">
                 <div id="about_us " class="column is-half">
                     <h1 class="title is-1 text-head">ABOUT US</h1>
-                    <p class="has-text-justified">
+                    <p class="has-text-justified content-text">
                         BuzyBus aims at making public transportation efficient & more convinient in the 
                         state of Himachal Pradesh.
                         We Utilize Technolgies such as GPS, to update the Real-Time Location
@@ -74,6 +75,7 @@
                 </div>
             </div>
         </div>
+      </div>
     </section>
 
     <section>
@@ -81,7 +83,7 @@
             <br>
             <br>
         <hr class="hr-line">
-        <h1 class="title is-1 has-text-centered">What We Offer</h1>
+        <h1 class="title is-1 has-text-centered text-title">What we offer</h1>
         </div>
     </section>
     <br>
@@ -107,9 +109,9 @@
                       <div class="card-content">
                         <div class="content">
                         <ul>
-                            <li>Provides live location.</li>
+                            <li>Live location.</li>
                             <li>Regulary updated time schedule of buses.</li>
-                            <li>Provides Information of nearest basic ammenities & <br> sustainibility information.</li>
+                            <li>Information of nearest basic ammenities & <br> sustainibility information.</li>
                         </ul>
                         </div>
                       </div>
@@ -119,7 +121,7 @@
                     <div class="card">
                         <header class="card-header">
                          <p class="card-header-title">
-                          Why Choose Us?
+                          Why choose us?
                          </p>
                           <button class="card-header-icon" aria-label="more options">
                              <span class="icon">
@@ -145,68 +147,42 @@
 
     <!-- <Card Ammenities> -->
 
-    <section>
-        <div class="container">
-            <div class="columns">
-                <div class="column is-half">
-                    <div class="card">
-                      <header class="card-header">
-                       <p class="card-header-title">
-                        Component
-                       </p>
-                        <button class="card-header-icon" aria-label="more options">
-                           <span class="icon">
-                           <i class="fas fa-angle-down" aria-hidden="true"></i>
-                           </span>
-                        </button>
-                       </header>
-                      <div class="card-content">
-                        <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Phasellus nec iaculis mauris.
-                       <br>
-                       <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="column is-half">
-                    <div class="card">
-                        <header class="card-header">
-                         <p class="card-header-title">
-                          Component
-                         </p>
-                          <button class="card-header-icon" aria-label="more options">
-                             <span class="icon">
-                             <i class="fas fa-angle-down" aria-hidden="true"></i>
-                             </span>
-                          </button>
-                         </header>
-                        <div class="card-content">
-                          <div class="content">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          Phasellus nec iaculis mauris.
-                         <br>
-                         <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                          </div>
-                        </div>
-                      </div>
-                </div>
+      <!-- <level> -->
+        <section>
+          <div class="container">
+    
+          <nav class="level routes-level">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Bus Routes</p>
+                <p class="title">3,456</p>
+              </div>
             </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Bus Partners</p>
+                <p class="title">123</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Customer Support</p>
+                <p class="title">24/7</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Real Time Loc</p>
+                <p class="title">Upto 10m</p>
+              </div>
+            </div>
+          </nav>
         </div>
-    </section>
+      </section>
 
-    <section>
-        <footer class="footer">
-            <div class="content has-text-centered">
-              <p>
-                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-              </p>
-            </div>
-          </footer>
-        </section>
+    
+
+    
     
 </body>
 </html>

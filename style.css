@@ -58,10 +58,11 @@
     font-weight: 700;
     font-size: 20px;
     border-radius: 10px;
+    background-color: #247b4e !important;
 }
 
 .card-background{
-    background-color: aliceblue;
+    background-color: #eaffea;
     padding-bottom: 56px;
     
 }
@@ -77,7 +78,7 @@
 }
 
 .tt-back{
-    background-color: #D9EDF7;
+    background-color: #EAFFEA;
     width: 85%;
     margin-left: 7%;
     font-weight: 400;
@@ -147,6 +148,7 @@
     margin-top: 5%;
     margin-left: 150px;
     font-size: 70px;
+    
 }
 
 
@@ -160,6 +162,7 @@
     width: 38%;
     margin-left: 155px;
     margin-bottom: 15%;
+    
 }
 
 .head-img{
@@ -175,6 +178,7 @@
     margin-top: -12%;
     margin-left: 10%;
     width: 18%;
+    background-color: #247b4e !important;
 }
 .tt-list-p{
     width: 20%;
@@ -193,15 +197,19 @@
     align-items: center;
 }
 
-.nav-img{
-    height: 246px;
-    margin-left: 134px;
-    margin-top: -48px;
+.nav-img{height: 76px;
+    margin-left: 121px;
+    margin-top: 15px;
+    background-color: transparent !important;
+    width: 296px;
 }
 
+
+
 .menu-bar{
-    margin-top: -66px;
+    margin-top: -84px;
     margin-left: 38%;
+    margin-bottom: 32px;
 }
 
 .hr-text{
@@ -238,4 +246,75 @@
     border-radius: 30px;
     width: 85%;
     margin-left: 11%;
+}
+
+.btn-bus{
+    font-weight: 600;
+}
+
+.nav-2:hover{
+    text-decoration: underline;
+}
+
+.nav-1:hover{
+    text-decoration: underline;
+}
+
+.nav-3:hover{
+    text-decoration: underline;
+}
+
+.help-content{
+    margin-top: 4%;
+}
+
+.routes-level{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    margin-left: -3%;
+}
+
+.title-back{
+    background-color: #EAFFEA !important;
+    /* margin-bottom: -5%; */
+    margin-top: -2%;
+    padding-bottom: 2px;
+    padding-top: 1%;
+}
+
+.content-text{
+    font-size: 19px;
+    width: 76%;
+    margin-left: 13%;
+}
+
+
+.nav-i{
+    
+        height: 61px;
+        background-color: transparent;
+        margin-left: 152px;
+        margin-top: 20px;
+    
+}
+
+
+.hero-img{
+    height: 92%;
+    width: max-content;
+    margin-top: 7%;
+    border-radius: 50px;
+}
+
+.text-title{
+    margin-top: 5%;
+
+}
+
+.about-back{
+    background-color: #EAFFEA !important;
+    /* margin-bottom: -5%; */
+    margin-top: -2%;
+    padding-bottom: 65px;
+    padding-top: 1%;
 }
