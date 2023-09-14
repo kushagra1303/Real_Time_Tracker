@@ -4,15 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Real-time</title>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <nav class="navbar nav-back" role="navigation" aria-label="main navigation">
         <img class="navbar-brand">
         <div class="hell">
-            <img src="images/WhatsApp Image 2023-09-13 at 11.47.42.jpg" class="nav-img"></img>
+            <img src="images/WhatsApp Image 2023-09-13 at 11.47.42.jpg" class="nav-img" ></img>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -109,85 +111,155 @@
           </div>
       </div>
  
-      <div>
-        <h2 class="subtitle is-2 has-text-centered mt-6 has-text-weight-bold" id="time-table">Time Table</h2>
-        <div class="control">
-            <input id="in" class="input input-tt" type="text" placeholder="Type a Bus number or name">
+      <div style="margin-bottom: 45px;">
+        <div>
+          <h2 class="subtitle is-2 has-text-centered mt-6 has-text-weight-bold" id="time-table">Time Table</h2>
+          <div class="control">
+              <input id="searchInput" class="input input-tt" type="text" placeholder="Type a Bus number or name">
           </div>
+  
+          <h2 class="subtitle is-4 has-text-centered mt-6 has-text-weight-bold">List of Himachal buses and their time table</h2>
+  
+          <!-- Table structure -->
+          <table class="container table is-fullwidth " aria-label="breadcrumbs" style="margin-top: 20px;">
+              <thead class="table is-bordered is-fullwidth  breadcrumb has-dot-separator tt-back" aria-label="breadcrumbs">
+                  <tr>
+                      <th class="magic-moments">Bus Number</th>
+                      <th class="magic-moment">Bus Name</th>
+                      <th class="magic-momen">Fuel Type</th>
+                      <th class="magic-mome">Departure Time (Hrs)</th>
+                      <th class="magic-mom">Arrival Time (Hrs)</th>
+                  </tr>
+              </thead>
+              <tbody class="table is-bordered is-fullwidth is-expanded">
+                  <!-- Table rows here -->
+                  <tr class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+                      <td ><a href="Page1.html" id="list1-num" class="has-text-black">12267</a></td>
+                      <td><a href="Page1.html" class="has-text-black">HAMIRPUR-KASOL</a></td>
+                      <td><a href="#" class="has-text-black">CNG</a></td>
+                      <td><a href="#" class="has-text-black">23:25(Hrs)</a></td>
+                      <td><a href="#" class="has-text-black">05:55(Hrs)</a></td>
+                  </tr>
+                  
+                  <tr class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+                      <td><a href="Page1.html" id="list1-num" class="has-text-black">12248</a></td>
+                      <td><a href="Page1.html" class="has-text-black">SHIMLA-KASOL</a></td>
+                      <td><a href="#" class="has-text-black">PETROL</a></td>
+                      <td><a href="#" class="has-text-black">23:25(Hrs)</a></td>
+                      <td><a href="#" class="has-text-black">05:55(Hrs)</a></td>
+                  </tr>
+                  
+                  <tr class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+                      <td><a href="Page1.html" id="list1-num" class="has-text-black">12245</a></td>
+                      <td><a href="Page1.html" class="has-text-black">SHIMLA-MANDI</a></td>
+                      <td><a href="#" class="has-text-black">PETROL</a></td>
+                      <td><a href="#" class="has-text-black">23:25(Hrs)</a></td>
+                      <td><a href="#" class="has-text-black">05:55(Hrs)</a></td>
+                  </tr>
+                  
+                  <tr class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+                      <td><a href="Page1.html" id="list1-num" class="has-text-black">12288</a></td>
+                      <td><a href="Page1.html" class="has-text-black">SHIMLA-DHARAMSHALA</a></td>
+                      <td><a href="#" class="has-text-black">CNG</a></td>
+                      <td><a href="#" class="has-text-black">23:25(Hrs)</a></td>
+                      <td><a href="#" class="has-text-black">05:55(Hrs)</a></td>
+                  </tr>
+                  
+                  <tr class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
+                      <td><a href="Page1.html" id="list1-num" class="has-text-black">12145</a></td>
+                      <td><a href="Page1.html" class="has-text-black">MANALI-DALHOUSIE</a></td>
+                      <td><a href="#" class="has-text-black">PETROL</a></td>
+                      <td><a href="#" class="has-text-black">23:25(Hrs)</a></td>
+                      <td><a href="#" class="has-text-black">05:55(Hrs)</a></td>
+                  </tr>                                
+  
+                  <!-- Add more table rows as needed -->
+              </tbody>
+          </table>
+      </div>
+  </div>
 
-          <h2 class="subtitle is-4 has-text-centered mt-6 has-text-weight-bold ">List of himachal buses and their time table</h2>
-          <!-- <div class="tt-basic">
-            <ul class="list-tt">
-                <li><a href="#">Bulma</a></li>
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Components</a></li>
-              </ul>
-          </div> -->
+  <!-- <div class="slideshow-container">
 
-          <nav class="breadcrumb has-dot-separator tt-back" aria-label="breadcrumbs">
-            <ul>
-              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Bus Number</a></li>
-              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Bus Name</a></li>
-              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Fuel Type</a></li>
-              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Departure Time(Hrs)</a></li>
-              <li class="tt-list-new " ><a href="#" class="is-size-5 has-text-black mt-4">Arrival time(Hrs)</a></li>
-              
-            </ul>
-          </nav>
-          
-          <nav id="list1" class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
-            <ul>
-              <li class="tt-list-p" ><a  href="Page1.html" class="has-text-black " id="list1-num">12267</a></li>
-              <li class="tt-list-p" ><a  href="Page1.html" class="has-text-black ">HAMIRPUR-KASAUL</a></li>
-              <li class="tt-list-p" ><a href="#" class="has-text-black ">CNG</a></li>
-              <li class="tt-list-p" ><a href="#" class="has-text-black ">23:25(Hrs)</a></li>
-              <li class="tt-list-p" ><a href="#" class="has-text-black ">05:55(Hrs)</a></li>
-              
-            </ul>
-          </nav>
-          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
-            <ul>
-              <li class="tt-list-p" ><a href="Page2.html" id="list2-num" class="has-text-black">12248</a></li>
-              <li class="tt-list-p" ><a href="Page2.html" class="has-text-black">SHIMLA-KASAUL</a></li>
-              <li class="tt-list-p" ><a href="#" class="has-text-black">PETROL</a></li>
-              <li class="tt-list-p" ><a href="#" class="has-text-black">23:25(Hrs)</a></li>
-              <li class="tt-list-p" ><a href="#" class="has-text-black">05:55(Hrs)</a></li>
-              
-            </ul>
-          </nav>
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/Bus_illustrate.png" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/bz.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/WhatsApp Image 2023-09-12 at 21.46.21.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  
+      </div> -->
+      
+      <!-- <footer>
+        <div class="footer-back">
+          <div>
+            <img src="images/bz.png" class="foot-img">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </div>
+        </div>
+      </footer> -->
 
-          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
-            <ul>
-              <li class="tt-list-p"><a href="Page3.html" id="list3-num" class="has-text-black">12245</a></li>
-              <li class="tt-list-p"><a href="Page3.html" class="has-text-black">SHIMLA-MANDI</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">PETROL</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">23:25(Hrs)</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">05:55(Hrs)</a></li>
-              
-            </ul>
-          </nav>
-
-          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
-            <ul>
-              <li class="tt-list-p"><a href="Page4.html" id="list4-num" class="has-text-black">12288</a></li>
-              <li class="tt-list-p"><a href="Page4.html" class="has-text-black">SHIMLA-DHARAMSHALA</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">CNG</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">23:25(Hrs)</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">05:55(Hrs)</a></li>
-              
-            </ul>
-          </nav>
-          <nav class="breadcrumb has-dot-separator tt-back-1" aria-label="breadcrumbs">
-            <ul>
-              <li class="tt-list-p"><a href="Page5.html" id="list5-num" class="has-text-black">12145</a></li>
-              <li class="tt-list-p"><a href="Page5.html" class="has-text-black">MANALI-DALHOUSIE</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">PETROL</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">23:25(Hrs)</a></li>
-              <li class="tt-list-p"><a href="#" class="has-text-black">05:55(Hrs)</a></li>
-              
-            </ul>
-          </nav>
-      </div>
+      <footer class="footer footer-sec is-fullheight">
+        <div class="foot-head">
+          <a href="index.html"><img src="images/bz.png" alt="" class="foot-img"></a>
+            <!-- <p class=" is-size-2 has-text-white foot-heading">SOLSKYY</p> -->
+            <div class="icons">
+              <a target="_blank" href=""><img src="images/icons8-instagram-50 (1).png" class="ig-img is-size-4"></a>
+              <a target="_blank" href=""><img src="images/icons8-facebook-50.png" class="ig-img"></a>
+              <a target="_blank" href=""><img src="images/icons8-playstore-50.png" class="ig-img"></a>
+              <a target="_blank" href=""><img src="images/icons8-ios-logo-50.png" class="ig-img"></a>
+                <!-- <a target="_blank" href="https://instagram.com/_solskyy_?igshid=NjIwNzIyMDk2Mg=="> <i class="ig-icon fa fa-instagram mr-5 is-size-2 has-text-white mt-5 " ></i></a>
+                <a target="_blank" href="https://www.facebook.com/fb.solskyy"><i class="fa fa-facebook-square mr-5 is-size-2 has-text-white mt-5 " aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/solskyy/"> <i class="fa fa-linkedin-square mr-5 is-size-2 has-text-white mt-5 linkd-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://youtube.com/@solskyy7"> <i class="fa fa-youtube-play mr-5 is-size-2 has-text-white mt-5 yout-icon" aria-hidden="true"></i></a> -->
+            </div>
+        </div>
+        <hr class="line-btw">
+        <ul class="footer-list mt-4">
+            <li class="ml-6 mr-6 is-size-5 "><a href="index.html" class="has-text-white">Home</a></li>
+            <li class="ml-6 mr-6 is-size-5"><a href="AboutUs.html" class="has-text-white">About US</a></li>
+            <li class="ml-6 mr-6 is-size-5"><a href="Help.html" class="has-text-white">Help & Support</a></li>
+            <li class="ml-6 mr-6 is-size-5"><a href="disclaimer.html" class="has-text-white">Disclaimer</a></li>
+            <li class="ml-6 mr-6 is-size-5"><a href="privacy-policy.html" class="has-text-white">Privacy Policy</a></li>
+        </ul>
+        <!-- <div class="columns mob-tab-logo">
+            <img src="images/whitevariant.svg" class="is-5 column footer-logo" alt="" style="height: 75px; width: 180px;">
+            <h3 class="is-size-3 has-text-white  column footer-solskyy">SOLSKYY</h3>
+        </div> -->
+    
+        <div class="footer-copyright ">
+            <p class="footer-date has-text-white is-justify-content-flex-end ">
+                &copy;
+                <!-- <script>
+                    document.write(new Date().getFullYear())
+                </script> -->
+                . Govt. Of Himachal Pradesh
+            </p>
+        </div>
+    </footer>
 
       
 

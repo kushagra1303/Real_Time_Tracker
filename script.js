@@ -43,6 +43,7 @@ searchButton.addEventListener('click' , myFunction);
 
 function myFunction(){
     
+    
 
     var userInput = document.querySelector('.card-text-2').value;
 
@@ -62,6 +63,8 @@ function myFunction(){
         alert("No matching");
     }
 
+    
+
     // if (userInput.trim === "12267"){
     //     window.location.href = "locate.html";
     // }
@@ -79,6 +82,7 @@ function myFunction(){
 }
 
 
+
 // function myHero(){
     
 
@@ -89,3 +93,48 @@ function myFunction(){
 
 // }
 
+const searchInput = document.getElementById("searchInput");
+        const tableRows = document.querySelectorAll("table tbody tr");
+
+        // Add an input event listener to the search input
+        searchInput.addEventListener("input", function () {
+            const searchTerm = searchInput.value.toLowerCase();
+
+            // Loop through table rows and hide/show them based on the search term
+            tableRows.forEach((row) => {
+                const rowText = row.textContent.toLowerCase();
+                if (rowText.includes(searchTerm)) {
+                    row.style.display = "table-row"; // Show matching rows
+                } else {
+                    row.style.display = "none"; // Hide non-matching rows
+                }
+            });
+        });
+
+
+        // let slideIndex = 1;
+        // showSlides(slideIndex);
+        
+        // function plusSlides(n) {
+        //   showSlides(slideIndex += n);
+        // }
+        
+        // function currentSlide(n) {
+        //   showSlides(slideIndex = n);
+        // }
+        
+        // function showSlides(n) {
+        //   let i;
+        //   let slides = document.getElementsByClassName("mySlides");
+        //   let dots = document.getElementsByClassName("dot");
+        //   if (n > slides.length) {slideIndex = 1}    
+        //   if (n < 1) {slideIndex = slides.length}
+        //   for (i = 0; i < slides.length; i++) {
+        //     slides[i].style.display = "none";  
+        //   }
+        //   for (i = 0; i < dots.length; i++) {
+        //     dots[i].className = dots[i].className.replace(" active", "");
+        //   }
+        //   slides[slideIndex-1].style.display = "block";  
+        //   dots[slideIndex-1].className += " active";
+        // }
